@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>charCounter</title>
+    <link rel="icon" href="images/reload.png"/>
+    <link rel="stylesheet" href="css/style.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&family=Hurricane&family=Krona+One&family=Monoton&family=Montserrat&family=Montserrat+Subrayada&family=Mulish:wght@300&family=Nunito:wght@200&family=Saira+Condensed&family=Tangerine:wght@700&family=Work+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" media="screen and (max-width:800px)" href="css/phone.css">
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="logo"><img src="images/reload.png" width="27px" height="27px"></div>
+            <h4>charCounter</h4>
+        </div>
+    <div class="inner-container">
+        <h2>Real Time Character Counter</h2>
+        <p>Check your English text for grammar,spelling and punctuation<br>
+        errors with leynud's real time character counter</p>
+        <textarea id="textarea" class="textarea" maxlength="150" placeholder="Please write here..."></textarea>
+        <button onClick="copyText()">Copy Text</button>
+        <div class="bottom-part">
+            <p>Total Character : <span id="total-counter">0</span></p>
+            <p>Remaining : <span id="total-remaining">150</span ></p>
+        </div>
+    </div>
+</div>
+</body>
+<script src="index.js"></script>
+</html>

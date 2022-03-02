@@ -1,0 +1,86 @@
+/* css reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(235, 230, 223);
+}
+.navbar{
+    width: 100%;
+    height: 10vh;
+    padding: 20px 40px;
+    display: flex;
+}
+.logo img{
+    margin-right: 6px;
+}
+.navbar h4{
+    font-size: 18px;
+    letter-spacing: 0.2px;
+}
+.inner-container{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.inner-container h2{
+    font-size: 36px;
+    color:rgb(43,45,56);
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+}
+.inner-container p{
+    margin-top: 20px;
+    margin-bottom: 60px;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    line-height: 22px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+}
+.textarea{
+    width: 40%;
+    height: 300px;
+    position: relative;
+    resize: none;
+    background-color:rgb(235, 230, 223);
+    border-radius: 12px;
+    padding:20px;
+    font-size: 14px;
+    box-shadow: 0 0.5rem 1.5rem rgba(0,0,0,0.6);
+    outline: none;
+    border: none;
+}
+.textarea:focus{
+    border:0.1px solid rgb(148, 123, 123);
+}
+button{
+    padding:8px 18px;
+    font-size: 16px;
+    margin: auto;
+    display: flex;
+    margin-top: -53px;
+    position: relative;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(9, 139, 79);
+    color:#fff;
+}
+button:focus, button:hover{
+    background-color: rgb(9, 92, 53);
+}
+.bottom-part{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    padding:20px 20px;
+}

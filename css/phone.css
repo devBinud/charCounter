@@ -1,0 +1,42 @@
+.navbar{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+.inner-container h2{
+    font-size: 24px;
+    padding:20px 30px;
+}
+.inner-container p{
+    margin-top: 8px;
+    margin-bottom: 10px;
+    padding:10px 20px;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    line-height: 22px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+}
+.textarea{
+    width: 90%;
+    height: 240px;
+    border-radius: 8px;
+    padding:14px;
+    font-size: 15px;
+}
+button{
+    padding:6px 14px;
+    font-size: 14px;
+    border-radius: 4px;
+}
+.bottom-part{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.bottom-part p{
+    margin-bottom: -21px;
+}
